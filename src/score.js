@@ -19,6 +19,10 @@ class Tennis {
       return "15 - Love";
     } else if (this.j1.score === 2 && this.j2.score === 0) {
       return "30 - Love";
+    } else if (this.j1.score === 3 && this.j2.score === 0) {
+      return "40 - Love";
+    } else if (this.j1.score === 4 && this.j2.score === 0) {
+      return "Game for Player 1";
     } else {
       return "Love - Love";
     }
