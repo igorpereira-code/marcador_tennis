@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-01T14:09:40.000Z",
+      "message": "Feat: Score Love - Love cuando ambos jugadores estan en 0",
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 122,
+      "additions": 100,
+      "deletions": 22,
+      "date": "2026-09-01"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]

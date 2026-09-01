@@ -1,0 +1,18 @@
+- Cuando el score esta 0 - 0, Love - Love
+- Cuando jugador 1 anota, score 15 - Love
+- Cuando jugador 1 vuelve a anotar, score 30 - 0
+- Cuando jugador 1 anota, score 40 - 0
+- Si jugador 1 vuelve a anotar, game for player 1
+
+- Cuando jugador 2 anota, score Love - 15
+- Cuando jugador 2 vuelve a anotar, score 0 - 30
+- Cuando jugador 1 anota, score 0 - 40
+- Si jugador 2 vuelve a anotar, game for player 2
+
+- Cuando jugador 1 anota 3 veces y jugador 2 anota 3 veces -> Deuce
+
+- Cuando jugador 1 anota 4 veces y jugador 2 anota 3 veces -> Advantaje for player 1
+- Cuando jugador 1 anota 5 veces y jugador 2 anota 3 veces -> Game for Player 1
+
+- Cuando jugador 1 anota 3 veces y jugador 2 anota 4 veces -> Advantaje for player 2
+- Cuando jugador 1 anota 3 veces y jugador 2 anota 5 veces -> Game for Player 2
