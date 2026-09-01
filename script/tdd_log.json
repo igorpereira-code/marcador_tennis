@@ -54,9 +54,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3b1fde3c905720d0e3ebec421d7c8814fae075ff",
     "commitName": "feat: Cuando jugador 1 anota, score 15 - Love",
     "commitTimestamp": 1788272457634,
     "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1788272549543,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788272611895,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Feat: Cuando jugador 1 anota de nuevo, score 30 - Love",
+    "commitTimestamp": 1788272654921,
+    "testId": 2
   }
 ]

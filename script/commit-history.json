@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3b1fde3c905720d0e3ebec421d7c8814fae075ff",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-01T14:20:56.000Z",
       "message": "feat: Cuando jugador 1 anota, score 15 - Love",
-      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/3b1fde3c905720d0e3ebec421d7c8814fae075ff"
     },
     "stats": {
       "total": 33,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-01T14:24:13.000Z",
+      "message": "Feat: Cuando jugador 1 anota de nuevo, score 30 - Love",
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-01"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

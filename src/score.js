@@ -17,6 +17,8 @@ class Tennis {
   obtenerScore() {
     if (this.j1.score === 1 && this.j2.score === 0) {
       return "15 - Love";
+    } else if (this.j1.score === 2 && this.j2.score === 0) {
+      return "30 - Love";
     } else {
       return "Love - Love";
     }

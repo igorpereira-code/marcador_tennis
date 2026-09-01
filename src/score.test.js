@@ -12,4 +12,11 @@ describe("Tenis", () => {
     tenis.j1.anota();
     expect(tenis.obtenerScore()).toEqual("15 - Love");
   });
+  //Cuando jugador 1 anota de nuevo, score 30 - Love
+  it("Deberia mostrar 30 - Love cuando el jugador 1 tiene 2 puntos y el jugador 2 tiene 0 puntos", () => {
+    let tenis = new Tennis();
+    tenis.j1.anota();
+    tenis.j1.anota();
+    expect(tenis.obtenerScore()).toEqual("30 - Love");
+  });
 });
