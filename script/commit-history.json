@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "289cb555aa8173f9fba92ef2d13113fc28ef3f03",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-01T14:09:40.000Z",
       "message": "Feat: Score Love - Love cuando ambos jugadores estan en 0",
-      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/289cb555aa8173f9fba92ef2d13113fc28ef3f03"
     },
     "stats": {
       "total": 122,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-01T14:20:56.000Z",
+      "message": "feat: Cuando jugador 1 anota, score 15 - Love",
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 33,
+      "additions": 23,
+      "deletions": 10,
+      "date": "2026-09-01"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

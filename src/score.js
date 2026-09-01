@@ -1,16 +1,26 @@
 class Jugador {
   constructor() {
-    this.puntos = 0;
+    this.score = 0;
   }
 
   anota() {
-    this.puntos++;
+    this.score++;
   }
 }
 
 class Tennis {
   constructor() {
-    this.jugador1 = new Jugador();
-    this.jugador2 = new Jugador();
+    this.j1 = new Jugador();
+    this.j2 = new Jugador();
+  }
+
+  obtenerScore() {
+    if (this.j1.score === 1 && this.j2.score === 0) {
+      return "15 - Love";
+    } else {
+      return "Love - Love";
+    }
   }
 }
+
+export default Tennis;
