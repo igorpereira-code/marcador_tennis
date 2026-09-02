@@ -114,9 +114,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9851d0a86d295280a22490f9f19f29033764d2ef",
     "commitName": "feat: Cuando jugador 1 hace 4 puntos y jugador 2 0, Game for player 1",
     "commitTimestamp": 1788272962506,
     "testId": 3
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788390580702,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788390672223,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Feat: Jugador 2 anota score Love - 15",
+    "commitTimestamp": 1788390731475,
+    "testId": 4
   }
 ]

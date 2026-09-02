@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9851d0a86d295280a22490f9f19f29033764d2ef",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-01T14:29:21.000Z",
       "message": "feat: Cuando jugador 1 hace 4 puntos y jugador 2 0, Game for player 1",
-      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/9851d0a86d295280a22490f9f19f29033764d2ef"
     },
     "stats": {
       "total": 22,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-02T23:12:09.000Z",
+      "message": "Feat: Jugador 2 anota score Love - 15",
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-02"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
