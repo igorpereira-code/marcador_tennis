@@ -158,9 +158,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "45b914acdef2d4abc4e7ef2d0b559e82c10177ab",
     "commitName": "Feat: Jugador 2 anota score Love - 30",
     "commitTimestamp": 1788390919544,
     "testId": 5
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1788390974886,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1788391061343,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Feat: Jugador 2 anota score Love - 40",
+    "commitTimestamp": 1788391073705,
+    "testId": 6
   }
 ]

@@ -27,6 +27,8 @@ class Tennis {
       return "Love - 15";
     } else if (this.j1.score === 0 && this.j2.score === 2) {
       return "Love - 30";
+    } else if (this.j1.score === 0 && this.j2.score === 3) {
+      return "Love - 40";
     } else {
       return "Love - Love";
     }
