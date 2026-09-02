@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4f32a72f5dc4c50c60cf18289e456f12a6320d34",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-02T23:38:41.000Z",
       "message": "Refactor: Refactorizando la funcion obtener score",
-      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/4f32a72f5dc4c50c60cf18289e456f12a6320d34"
     },
     "stats": {
       "total": 18,
@@ -167,6 +167,25 @@
     },
     "coverage": 93.33,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-02T23:46:44.000Z",
+      "message": "feat: Cuando dos jugadores empatan, muestra el score 15 - 15, 30 - 30, 40 - 40",
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-09-02"
+    },
+    "coverage": 94.12,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

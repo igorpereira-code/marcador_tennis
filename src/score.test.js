@@ -68,4 +68,13 @@ describe("Tenis", () => {
     tenis.j2.anota();
     expect(tenis.obtenerScore()).toEqual("Game for Player 2");
   });
+  //Cuando ambos jugadores anotan, score 30 - 30
+  it("Deberia mostrar 30 - 30 cuando ambos jugadores tienen 2 puntos", () => {
+    let tenis = new Tennis();
+    tenis.j1.anota();
+    tenis.j2.anota();
+    tenis.j1.anota();
+    tenis.j2.anota();
+    expect(tenis.obtenerScore()).toEqual("30 - 30");
+  });
 });

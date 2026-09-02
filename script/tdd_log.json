@@ -216,9 +216,55 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4f32a72f5dc4c50c60cf18289e456f12a6320d34",
     "commitName": "Refactor: Refactorizando la funcion obtener score",
     "commitTimestamp": 1788392322823,
     "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1788392342913,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1788392565581,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788392665958,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1788392715651,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788392738594,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Cuando dos jugadores empatan, muestra el score 15 - 15, 30 - 30, 40 - 40",
+    "commitTimestamp": 1788392805522,
+    "testId": 9
   }
 ]
