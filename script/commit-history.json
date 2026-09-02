@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "863fb20987b3b02ef4395c7f1e17ff4e3af7afb2",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-02T23:19:59.000Z",
       "message": "Feat: Jugador 2 anota score Game for player 2",
-      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/863fb20987b3b02ef4395c7f1e17ff4e3af7afb2"
     },
     "stats": {
       "total": 11,
@@ -147,6 +147,25 @@
       "date": "2026-09-02"
     },
     "coverage": 100,
+    "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-02T23:38:41.000Z",
+      "message": "Refactor: Refactorizando la funcion obtener score",
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 6,
+      "deletions": 12,
+      "date": "2026-09-02"
+    },
+    "coverage": 93.33,
     "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"

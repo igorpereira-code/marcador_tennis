@@ -15,20 +15,14 @@ class Tennis {
   }
 
   obtenerScore() {
-    if (this.j1.score === 1 && this.j2.score === 0) {
-      return "15 - Love";
-    } else if (this.j1.score === 2 && this.j2.score === 0) {
-      return "30 - Love";
-    } else if (this.j1.score === 3 && this.j2.score === 0) {
-      return "40 - Love";
+    const scores = ["Love", "15", "30", "40"];
+
+    if (this.j2.score === 0 && this.j1.score <= 3) {
+      return `${scores[this.j1.score]} - Love`;
+    } else if (this.j1.score === 0 && this.j2.score <= 3) {
+      return `Love - ${scores[this.j2.score]}`;
     } else if (this.j1.score === 4 && this.j2.score === 0) {
       return "Game for Player 1";
-    } else if (this.j1.score === 0 && this.j2.score === 1) {
-      return "Love - 15";
-    } else if (this.j1.score === 0 && this.j2.score === 2) {
-      return "Love - 30";
-    } else if (this.j1.score === 0 && this.j2.score === 3) {
-      return "Love - 40";
     } else if (this.j1.score === 0 && this.j2.score === 4) {
       return "Game for Player 2";
     } else {
