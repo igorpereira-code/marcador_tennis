@@ -180,9 +180,31 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7e79417479142ce7c383798538b8d2d467af0272",
     "commitName": "Feat: Jugador 2 anota score Love - 40",
     "commitTimestamp": 1788391073705,
     "testId": 6
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1788391142419,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1788391184179,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Feat: Jugador 2 anota score Game for player 2",
+    "commitTimestamp": 1788391200969,
+    "testId": 7
   }
 ]
