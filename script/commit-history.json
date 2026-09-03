@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9ed04f65360043338f93ec0d75f38086cb695157",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-02T23:46:44.000Z",
       "message": "feat: Cuando dos jugadores empatan, muestra el score 15 - 15, 30 - 30, 40 - 40",
-      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/9ed04f65360043338f93ec0d75f38086cb695157"
     },
     "stats": {
       "total": 12,
@@ -186,6 +186,25 @@
     },
     "coverage": 94.12,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-03T00:11:52.000Z",
+      "message": "feat: Agregando Deuce (40 - 40), refactoring: Obtener Score",
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 42,
+      "additions": 30,
+      "deletions": 12,
+      "date": "2026-09-03"
+    },
+    "coverage": 88.24,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }

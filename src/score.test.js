@@ -77,4 +77,15 @@ describe("Tenis", () => {
     tenis.j2.anota();
     expect(tenis.obtenerScore()).toEqual("30 - 30");
   });
+  //Cuando ambos jugadores empatan 40 - 40
+  it("Deberia mostrar Deuce cuando ambos jugadores tienen 3 puntos", () => {
+    let tenis = new Tennis();
+    tenis.j1.anota();
+    tenis.j2.anota();
+    tenis.j1.anota();
+    tenis.j2.anota();
+    tenis.j1.anota();
+    tenis.j2.anota();
+    expect(tenis.obtenerScore()).toEqual("Deuce");
+  });
 });

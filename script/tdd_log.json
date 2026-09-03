@@ -262,9 +262,87 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9ed04f65360043338f93ec0d75f38086cb695157",
     "commitName": "feat: Cuando dos jugadores empatan, muestra el score 15 - 15, 30 - 30, 40 - 40",
     "commitTimestamp": 1788392805522,
     "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1788392907099,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1788393208680,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 2,
+    "numTotalTests": 12,
+    "timestamp": 1788393548664,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 2,
+    "numTotalTests": 12,
+    "timestamp": 1788393736783,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 2,
+    "numTotalTests": 12,
+    "timestamp": 1788393902449,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1788394091335,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 3,
+    "numTotalTests": 12,
+    "timestamp": 1788394208509,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 2,
+    "numTotalTests": 12,
+    "timestamp": 1788394224890,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788394268917,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Agregando Deuce (40 - 40), refactoring: Obtener Score",
+    "commitTimestamp": 1788394314281,
+    "testId": 10
   }
 ]

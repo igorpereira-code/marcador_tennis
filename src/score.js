@@ -16,20 +16,27 @@ class Tennis {
 
   obtenerScore() {
     const scores = ["Love", "15", "30", "40"];
+    const p1 = this.j1.score;
+    const p2 = this.j2.score;
+    const diferencia = Math.abs(p1 - p2);
 
-    if (this.j2.score == this.j1.score) {
-      return `${scores[this.j1.score]} - ${scores[this.j2.score]}`;
+    // Alguien ya ganó sin pasar por deuce (llegó a 4 con el otro en 0,1,2,3)
+    if ((p1 >= 4 || p2 >= 4) && diferencia >= 2) {
+      return p1 > p2 ? "Game for Player 1" : "Game for Player 2";
     }
-    if (this.j2.score === 0 && this.j1.score <= 3) {
-      return `${scores[this.j1.score]} - Love`;
-    } else if (this.j1.score === 0 && this.j2.score <= 3) {
-      return `Love - ${scores[this.j2.score]}`;
-    } else if (this.j1.score === 4 && this.j2.score === 0) {
-      return "Game for Player 1";
-    } else if (this.j1.score === 0 && this.j2.score === 4) {
-      return "Game for Player 2";
-    } else {
-      return "Love - Love";
+
+    if (p1 === 3 && p2 === 3) {
+      return "Deuce";
+    }
+
+    // Fase normal: ambos siguen por debajo de 4 puntos (Love/15/30/40)
+    if (p1 < 4 && p2 < 4) {
+      return `${scores[p1]} - ${scores[p2]}`;
+    }
+
+    // A partir de aquí, ambos están en 3+ (fase de deuce)
+    if (p1 === p2) {
+      return "Deuce";
     }
   }
 }
