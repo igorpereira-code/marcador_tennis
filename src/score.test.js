@@ -112,4 +112,27 @@ describe("Tenis", () => {
     tenis.j2.anota();
     expect(tenis.obtenerScore()).toEqual("Advantage Player 2");
   });
+  //Cuando jugador 1 anota 2 veces y el jugador 2 tiene 3 puntos, score Advantage Player 1
+  it("Deberia mostrar Advantage Player 1 cuando el jugador 1 tiene 4 puntos y el jugador 2 tiene 3 puntos", () => {
+    let tenis = new Tennis();
+    tenis.j1.anota();
+    tenis.j2.anota();
+    tenis.j1.anota();
+    tenis.j2.anota();
+    tenis.j1.anota();
+    tenis.j1.anota();
+    tenis.j1.anota();
+    tenis.j2.anota();
+    expect(tenis.obtenerScore()).toEqual("Game for Player 1");
+  });
+  //Cuando jugador 2 anota 2 veces y el jugador 1 tiene 3 puntos, score Game for Player 2
+  it("Deberia mostrar Game for Player 2 cuando el jugador 1 tiene 3 puntos y el jugador 2 tiene 4 puntos", () => {
+    let tenis = new Tennis();
+    tenis.j1.anota();
+    tenis.j2.anota();
+    tenis.j2.anota();
+    tenis.j2.anota();
+    tenis.j2.anota();
+    expect(tenis.obtenerScore()).toEqual("Game for Player 2");
+  });
 });

@@ -432,9 +432,55 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a71a6fd3b5520ba32d9d1d6931dc63a16c2a6e6e",
     "commitName": "feat: Advantaje for Player 2",
     "commitTimestamp": 1788395303212,
     "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1788395338235,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1788395406868,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1788395473943,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1788395566741,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1788395686267,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Casos de prueba completados",
+    "commitTimestamp": 1788395736076,
+    "testId": 13
   }
 ]
