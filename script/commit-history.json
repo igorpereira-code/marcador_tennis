@@ -247,17 +247,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a0fc520018422d4837563bc79a42747940e9d90e",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-03T00:35:33.000Z",
       "message": "feat: Casos de prueba completados",
-      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/a0fc520018422d4837563bc79a42747940e9d90e"
     },
     "stats": {
       "total": 23,
       "additions": 23,
       "deletions": 0,
+      "date": "2026-09-03"
+    },
+    "coverage": 95.24,
+    "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-03T00:43:39.000Z",
+      "message": "fixing: presenter e index.html",
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 12,
+      "deletions": 11,
       "date": "2026-09-03"
     },
     "coverage": 95.24,
