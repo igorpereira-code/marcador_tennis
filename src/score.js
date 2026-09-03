@@ -38,6 +38,10 @@ class Tennis {
     if (p1 === p2) {
       return "Deuce";
     }
+
+    if (p1 > p2 && p1 - p2 === 1) {
+      return "Advantage Player 1";
+    }
   }
 }
 

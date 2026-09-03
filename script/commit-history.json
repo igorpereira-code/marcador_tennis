@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "67158cca7cad21d239582982ab3a61249fd808ee",
     "author": "Igorito27",
     "commit": {
       "date": "2026-09-03T00:11:52.000Z",
       "message": "feat: Agregando Deuce (40 - 40), refactoring: Obtener Score",
-      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/67158cca7cad21d239582982ab3a61249fd808ee"
     },
     "stats": {
       "total": 42,
@@ -205,6 +205,25 @@
     },
     "coverage": 88.24,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Igorito27",
+    "commit": {
+      "date": "2026-09-03T00:21:27.000Z",
+      "message": "feat: Advantage Player 1",
+      "url": "https://github.com/igorpereira-code/marcador_tennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 17,
+      "deletions": 1,
+      "date": "2026-09-03"
+    },
+    "coverage": 94.74,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }

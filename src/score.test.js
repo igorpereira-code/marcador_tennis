@@ -77,7 +77,7 @@ describe("Tenis", () => {
     tenis.j2.anota();
     expect(tenis.obtenerScore()).toEqual("30 - 30");
   });
-  //Cuando ambos jugadores empatan 40 - 40
+  //Cuando ambos jugadores empatan 40 - 40 muestra Deuce
   it("Deberia mostrar Deuce cuando ambos jugadores tienen 3 puntos", () => {
     let tenis = new Tennis();
     tenis.j1.anota();
@@ -87,5 +87,17 @@ describe("Tenis", () => {
     tenis.j1.anota();
     tenis.j2.anota();
     expect(tenis.obtenerScore()).toEqual("Deuce");
+  });
+  //Cuando jugador 1 anota y el jugador 2 tiene 3 puntos, score Advantage Player 1
+  it("Deberia mostrar Advantage Player 1 cuando el jugador 1 tiene 4 puntos y el jugador 2 tiene 3 puntos", () => {
+    let tenis = new Tennis();
+    tenis.j1.anota();
+    tenis.j2.anota();
+    tenis.j1.anota();
+    tenis.j2.anota();
+    tenis.j1.anota();
+    tenis.j1.anota();
+    tenis.j2.anota();
+    expect(tenis.obtenerScore()).toEqual("Advantage Player 1");
   });
 });
